@@ -1,10 +1,11 @@
 @import "../../styles/constants.scss";
+@import "../../styles/fonts.scss";
 
 .at-header {
   // Computer screen
   height: $header-height;
 
-  background-color: white;
+  background-color: $primary-light-color;
   box-shadow: 0px 2px 4px 0px #ddd;
 
   position: fixed;
@@ -13,17 +14,52 @@
   width: 100%;
 
   display: flex;
+  box-sizing: border-box;
   align-items: center;
-  justify-content: center;
-  column-gap: 32px;
+  justify-content: space-between;
+  padding: 0px 320px;
+  column-gap: 60px;
 
   .header-menu-list {
     padding: 0;
     display: inline-flex;
-    column-gap: 16px;
+    column-gap: 32px;
 
     .header-menu-element {
       display: inline-flex;
+
+      a {
+        color: $primary-dark-color;
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          color: $primary-accent-color;
+          text-decoration: underline;
+
+          transition: color 0.25s;
+        }
+      }
+    }
+  }
+
+  .event-name {
+    font-family: "Designer";
+    font-size: 32px;
+    display: flex;
+
+    a {
+      text-decoration: none;
+    }
+
+    translate: 0px 2px;
+
+    &-dark {
+      color: $primary-dark-color;
+    }
+
+    &-color {
+      color: $primary-accent-color;
     }
   }
 }

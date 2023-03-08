@@ -1,0 +1,35 @@
+@import "../../styles/constants.scss";
+
+.at-about-slide {
+  padding: 48px 320px;
+
+  .main-title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .subtitle {
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 16px;
+  }
+
+  .event-description {
+    margin-top: 16px;
+  }
+
+  .event-name {
+    font-family: "Designer";
+    font-weight: 500;
+
+    font-size: 36px;
+
+    &-dark {
+      color: $primary-dark-color;
+    }
+
+    &-color {
+      color: $primary-accent-color;
+    }
+  }
+}

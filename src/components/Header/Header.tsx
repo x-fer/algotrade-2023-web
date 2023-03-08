@@ -4,30 +4,27 @@ import "./header.scss";
 const Header = () => {
   return (
     <div className="at-header">
-      <svg width="48" height="48">
-        <rect
-          width="48"
-          height="48"
-          style={{
-            fill: "darkgrey",
-          }}
-        />
-      </svg>
+      <div className="event-name">
+        <a href="https://algotrade.xfer.hr">
+          <span className="event-name-dark">ALGO</span>
+          <span className="event-name-color">TRADE</span>
+        </a>
+      </div>
       <ul className="header-menu-list">
         <li className="header-menu-element">
-          <a href="#home-slide">Naslovna</a>
+          <a href="#at-home-slide">Naslovna</a>
         </li>
         <li className="header-menu-element">
-          <a href="#about-slide">O događaju</a>
+          <a href="#at-about-slide">O događaju</a>
         </li>
         <li className="header-menu-element">
-          <a href="#partners-slide">Partneri</a>
+          <a href="#at-partners-slide">Partneri</a>
         </li>
         <li className="header-menu-element">
-          <a href="#apply-slide">Prijava</a>
+          <a href="#at-apply-slide">Prijava</a>
         </li>
         <li className="header-menu-element">
-          <a href="#contact-slide">Kontakt</a>
+          <a href="#at-contact-slide">Kontakt</a>
         </li>
       </ul>
     </div>
