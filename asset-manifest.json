@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ca13bb42.css",
-    "main.js": "/static/js/main.46b2e271.js",
-    "static/media/john-doe.jpg": "/static/media/john-doe.53f209599f72e372149f.jpg",
-    "static/media/amazon-logo.png": "/static/media/amazon-logo.81fa3d03e0710086f4ca.png",
-    "static/media/avl-logo.png": "/static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
-    "static/media/DESIGNER.otf": "/static/media/DESIGNER.5bce54baf24bd63167e1.otf",
-    "static/media/netflix-logo.png": "/static/media/netflix-logo.303904f75553a51bbf31.png",
-    "static/media/apple-logo.png": "/static/media/apple-logo.4dd49e516bb48e0bd0a2.png",
-    "index.html": "/index.html",
-    "main.ca13bb42.css.map": "/static/css/main.ca13bb42.css.map",
-    "main.46b2e271.js.map": "/static/js/main.46b2e271.js.map"
+    "main.css": "./static/css/main.18a07535.css",
+    "main.js": "./static/js/main.5140066e.js",
+    "static/media/john-doe.jpg": "./static/media/john-doe.53f209599f72e372149f.jpg",
+    "static/media/amazon-logo.png": "./static/media/amazon-logo.81fa3d03e0710086f4ca.png",
+    "static/media/avl-logo.png": "./static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
+    "static/media/DESIGNER.otf": "./static/media/DESIGNER.5bce54baf24bd63167e1.otf",
+    "static/media/netflix-logo.png": "./static/media/netflix-logo.303904f75553a51bbf31.png",
+    "static/media/apple-logo.png": "./static/media/apple-logo.4dd49e516bb48e0bd0a2.png",
+    "index.html": "./index.html",
+    "main.18a07535.css.map": "./static/css/main.18a07535.css.map",
+    "main.5140066e.js.map": "./static/js/main.5140066e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca13bb42.css",
-    "static/js/main.46b2e271.js"
+    "static/css/main.18a07535.css",
+    "static/js/main.5140066e.js"
   ]
 }
