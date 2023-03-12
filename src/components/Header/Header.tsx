@@ -46,9 +46,9 @@ const Header = () => {
           <li className="header-menu-element">
             <a href="#apply">Prijava</a>
           </li>
-          <li className="header-menu-element">
+          {/* <li className="header-menu-element">
             <a href="#contact">Kontakt</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </header>
