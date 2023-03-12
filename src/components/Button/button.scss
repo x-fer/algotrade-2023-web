@@ -20,12 +20,24 @@ button.at-button {
   font: inherit;
   cursor: pointer;
   outline: inherit;
+
+  :active {
+    opacity: 90%;
+    color: $primary-dark-color;
+  }
 }
 
-div.at-button {
+a.at-button {
+  text-decoration: none;
+
+  display: block;
   width: fit-content;
 
-  a {
-    text-decoration: none;
+  &:hover {
+    filter: brightness(0.9);
+  }
+
+  &:active {
+    filter: brightness(1.1);
   }
 }

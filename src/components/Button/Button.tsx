@@ -17,10 +17,12 @@ const Button = ({
   return (
     <>
       {isLink ? (
-        <div className={`at-button ${className || ""}`}>
-          <a href={href}>{children}</a>
-        </div>
+        // <div >
+        <a className={`at-button ${className || ""}`} href={href}>
+          {children}
+        </a>
       ) : (
+        // </div>
         <button onClick={onClick} className={`at-button ${className || ""}`}>
           {children}
         </button>

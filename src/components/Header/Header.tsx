@@ -44,7 +44,9 @@ const Header = () => {
             </a>
           </li>
           <li className="header-menu-element">
-            <a href="#apply">Prijava</a>
+            <a href="#apply" onClick={(e) => setMobileNavOpen(false)}>
+              Prijava
+            </a>
           </li>
           {/* <li className="header-menu-element">
             <a href="#contact">Kontakt</a>
