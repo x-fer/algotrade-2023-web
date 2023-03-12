@@ -1,36 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.scss";
 
 const Header = () => {
+  const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
+
   return (
-    <div className="at-header">
-      <div className="event-name">
-        <a href="https://algotrade.xfer.hr">
-          <span className="event-name-dark">ALGO</span>
-          <span className="event-name-color">TRADE</span>
-        </a>
-      </div>
-      <ul className="header-menu-list">
-        <li className="header-menu-element">
-          <a href="#home">Naslovna</a>
-        </li>
-        <li className="header-menu-element">
-          <a href="#about">O događaju</a>
-        </li>
-        <li className="header-menu-element">
-          <a href="#partners">Partneri</a>
-        </li>
-        <li className="header-menu-element">
-          <a href="#schedule">Raspored</a>
-        </li>
-        <li className="header-menu-element">
-          <a href="#apply">Prijava</a>
-        </li>
-        <li className="header-menu-element">
-          <a href="#contact">Kontakt</a>
-        </li>
-      </ul>
-    </div>
+    <header className="header">
+      <a href="https://algotrade.xfer.hr" className="logo">
+        <span className="logo-dark">ALGO</span>
+        <span className="logo-color">TRADE</span>
+      </a>
+      <input
+        className="side-menu"
+        type="checkbox"
+        checked={mobileNavOpen}
+        onClick={() => setMobileNavOpen(!mobileNavOpen)}
+        id="side-menu"
+      />
+      <label className="hamb" htmlFor="side-menu">
+        <span className="hamb-line"></span>
+      </label>
+
+      <nav className="nav">
+        <ul className="menu">
+          <li className="header-menu-element">
+            <a href="#home" onClick={(e) => setMobileNavOpen(false)}>
+              Naslovna
+            </a>
+          </li>
+          <li className="header-menu-element">
+            <a href="#about" onClick={(e) => setMobileNavOpen(false)}>
+              O događaju
+            </a>
+          </li>
+          <li className="header-menu-element">
+            <a href="#partners" onClick={(e) => setMobileNavOpen(false)}>
+              Partneri
+            </a>
+          </li>
+          <li className="header-menu-element">
+            <a href="#schedule" onClick={(e) => setMobileNavOpen(false)}>
+              Raspored
+            </a>
+          </li>
+          <li className="header-menu-element">
+            <a href="#apply">Prijava</a>
+          </li>
+          <li className="header-menu-element">
+            <a href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 
