@@ -1,0 +1,43 @@
+@import "../../styles/constants.scss";
+
+.at-footer {
+  // padding: 60px 320px;
+  box-sizing: border-box;
+
+  background-color: $primary-dark-color;
+
+  div {
+    opacity: 60%;
+  }
+
+  div,
+  a {
+    color: $primary-light-color;
+    text-decoration: none;
+    font-weight: 300;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a {
+    transition: text-decoration 2.5s;
+  }
+
+  width: 100%;
+
+  display: flex;
+
+  @media screen and (min-width: 900px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

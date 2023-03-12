@@ -10,6 +10,7 @@
 
   position: fixed;
   top: 0;
+  z-index: 9999;
 
   width: 100%;
 
@@ -17,8 +18,14 @@
   box-sizing: border-box;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 320px;
   column-gap: 60px;
+
+  @media screen and (min-width: 900px) {
+    padding: 0px 320px;
+  }
+  @media screen and (max-width: 900px) {
+    padding: 0px 32px;
+  }
 
   .header-menu-list {
     padding: 0;

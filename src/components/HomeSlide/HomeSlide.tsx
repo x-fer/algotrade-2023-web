@@ -5,12 +5,14 @@ import "./homeSlide.scss";
 
 const HomeSlide = () => {
   return (
-    <Slide className="at-home-slide" id="at-home-slide">
+    <Slide className="at-home-slide" id="home">
       <div className="inner-div">
         <div className="slogan">Lorem ipsum dolor sit amet!</div>
-        <div className="slogan-subtitle">Predavanja - 29. do 31. ožujka </div>
-        <div className="slogan-subtitle">Hackathon - 1. do 2. travnja</div>
-        <Button className="call-to-action-button">Prijavi se!</Button>
+        <div className="slogan-subtitle">Predavanja - Datum - Lokacija </div>
+        <div className="slogan-subtitle">Hackathon - Datum - Lokacija</div>
+        <Button isLink href="#about" className="call-to-action-button">
+          Saznaj više!
+        </Button>
       </div>
     </Slide>
   );

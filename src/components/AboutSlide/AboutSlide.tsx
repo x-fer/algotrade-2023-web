@@ -4,7 +4,7 @@ import "./aboutSlide.scss";
 
 const AboutSlide = () => {
   return (
-    <Slide className="at-about-slide" id="at-about-slide">
+    <Slide className="at-about-slide" id="about">
       <div className="main-title">
         Što je <span className="event-name event-name-dark">ALGO</span>
         <span className="event-name event-name-color">TRADE</span>?

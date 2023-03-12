@@ -6,19 +6,21 @@ import { partnersData } from "./partners-data";
 
 const PartnersSlide = () => {
   return (
-    <Slide>
-      <div className="at-partners-slide" id="at-partners-slide">
-        <div>Sponzori</div>
-        <div>
-          {partnersData.map((partner) => (
-            <div>
-              <a href={partner.website} target="_blank" rel="noreferrer">
-                <img alt={`${partner.name} logo`} src={partner.imgSrc} />
-                <div>{partner.name}</div>
-              </a>
-            </div>
-          ))}
-        </div>
+    <Slide className="at-partners-slide" id="partners">
+      <div className="at-title">Partneri</div>
+      <div className="at-partners-list">
+        {partnersData.map((partner) => (
+          <div className="at-partner" key={partner.website}>
+            <a href={partner.website} target="_blank" rel="noreferrer">
+              <img
+                className="at-partner-logo"
+                alt={`${partner.name} logo`}
+                title={partner.name}
+                src={partner.imgSrc}
+              />
+            </a>
+          </div>
+        ))}
       </div>
     </Slide>
   );

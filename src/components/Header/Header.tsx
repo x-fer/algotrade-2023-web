@@ -12,19 +12,22 @@ const Header = () => {
       </div>
       <ul className="header-menu-list">
         <li className="header-menu-element">
-          <a href="#at-home-slide">Naslovna</a>
+          <a href="#home">Naslovna</a>
         </li>
         <li className="header-menu-element">
-          <a href="#at-about-slide">O događaju</a>
+          <a href="#about">O događaju</a>
         </li>
         <li className="header-menu-element">
-          <a href="#at-partners-slide">Partneri</a>
+          <a href="#partners">Partneri</a>
         </li>
         <li className="header-menu-element">
-          <a href="#at-apply-slide">Prijava</a>
+          <a href="#schedule">Raspored</a>
         </li>
         <li className="header-menu-element">
-          <a href="#at-contact-slide">Kontakt</a>
+          <a href="#apply">Prijava</a>
+        </li>
+        <li className="header-menu-element">
+          <a href="#contact">Kontakt</a>
         </li>
       </ul>
     </div>
