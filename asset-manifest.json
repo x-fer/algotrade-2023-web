@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.18a07535.css",
-    "main.js": "./static/js/main.5140066e.js",
+    "main.css": "./static/css/main.18433c84.css",
+    "main.js": "./static/js/main.efad5bed.js",
     "static/media/john-doe.jpg": "./static/media/john-doe.53f209599f72e372149f.jpg",
     "static/media/amazon-logo.png": "./static/media/amazon-logo.81fa3d03e0710086f4ca.png",
     "static/media/avl-logo.png": "./static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
@@ -9,11 +9,11 @@
     "static/media/netflix-logo.png": "./static/media/netflix-logo.303904f75553a51bbf31.png",
     "static/media/apple-logo.png": "./static/media/apple-logo.4dd49e516bb48e0bd0a2.png",
     "index.html": "./index.html",
-    "main.18a07535.css.map": "./static/css/main.18a07535.css.map",
-    "main.5140066e.js.map": "./static/js/main.5140066e.js.map"
+    "main.18433c84.css.map": "./static/css/main.18433c84.css.map",
+    "main.efad5bed.js.map": "./static/js/main.efad5bed.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a07535.css",
-    "static/js/main.5140066e.js"
+    "static/css/main.18433c84.css",
+    "static/js/main.efad5bed.js"
   ]
 }
