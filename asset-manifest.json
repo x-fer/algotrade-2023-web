@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/algotrade-2023-web/static/css/main.26ff9ee2.css",
-    "main.js": "/algotrade-2023-web/static/js/main.c5f6012e.js",
-    "static/media/avl-logo.png": "/algotrade-2023-web/static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
-    "static/media/stablo-znanja-logo.png": "/algotrade-2023-web/static/media/stablo-znanja-logo.7a852d9ec55a3ee76238.png",
-    "static/media/asee-logo.png": "/algotrade-2023-web/static/media/asee-logo.725b3edcafd3f63be37a.png",
-    "static/media/zagrebacka-burza-logo.png": "/algotrade-2023-web/static/media/zagrebacka-burza-logo.f1b50bba38d21724be01.png",
-    "static/media/DESIGNER.otf": "/algotrade-2023-web/static/media/DESIGNER.5bce54baf24bd63167e1.otf",
-    "static/media/intercapital-logo.png": "/algotrade-2023-web/static/media/intercapital-logo.7c8acf667788ff8e6820.png",
-    "index.html": "/algotrade-2023-web/index.html",
-    "main.26ff9ee2.css.map": "/algotrade-2023-web/static/css/main.26ff9ee2.css.map",
-    "main.c5f6012e.js.map": "/algotrade-2023-web/static/js/main.c5f6012e.js.map"
+    "main.css": "./static/css/main.9bef13a2.css",
+    "main.js": "./static/js/main.90a4dd56.js",
+    "static/media/avl-logo.png": "./static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
+    "static/media/stablo-znanja-logo.png": "./static/media/stablo-znanja-logo.7a852d9ec55a3ee76238.png",
+    "static/media/asee-logo.png": "./static/media/asee-logo.725b3edcafd3f63be37a.png",
+    "static/media/zagrebacka-burza-logo.png": "./static/media/zagrebacka-burza-logo.f1b50bba38d21724be01.png",
+    "static/media/DESIGNER.otf": "./static/media/DESIGNER.5bce54baf24bd63167e1.otf",
+    "static/media/intercapital-logo.png": "./static/media/intercapital-logo.7c8acf667788ff8e6820.png",
+    "index.html": "./index.html",
+    "main.9bef13a2.css.map": "./static/css/main.9bef13a2.css.map",
+    "main.90a4dd56.js.map": "./static/js/main.90a4dd56.js.map"
   },
   "entrypoints": [
-    "static/css/main.26ff9ee2.css",
-    "static/js/main.c5f6012e.js"
+    "static/css/main.9bef13a2.css",
+    "static/js/main.90a4dd56.js"
   ]
 }
