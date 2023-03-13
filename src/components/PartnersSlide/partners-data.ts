@@ -24,6 +24,11 @@ export const partnersData: PartnerData[] = [
     dark: true,
   },
   {
+    name: "Dedal Komunikacije",
+    imgSrc: require("../../resources/partner-logos/dedal-logo.png"),
+    website: "https://dedal.hr/",
+  },
+  {
     name: "Ericsson Nikola Tesla",
     imgSrc: require("../../resources/partner-logos/ericsson-logo.png"),
     website: "https://www.ericsson.hr/",
