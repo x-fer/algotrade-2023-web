@@ -48,9 +48,11 @@ const Header = () => {
               Prijava
             </a>
           </li>
-          {/* <li className="header-menu-element">
-            <a href="#contact">Kontakt</a>
-          </li> */}
+          <li className="header-menu-element">
+            <a href="#contact" onClick={(e) => setMobileNavOpen(false)}>
+              Kontakt
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

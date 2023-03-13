@@ -66,10 +66,13 @@
     display: block;
     padding: 0px 0px;
     color: $primary-dark-color;
+    transition: color 0.25s;
+
+    &:hover {
+      color: $primary-accent-color;
+    }
   }
-  .menu a:hover {
-    background-color: var(--gray);
-  }
+
   .nav {
     max-height: 0;
     transition: max-height 0.5s ease-out;
@@ -154,11 +157,7 @@
     }
     .menu li {
       float: left;
-      padding-left: 32px;
-    }
-    .menu a:hover {
-      background-color: transparent;
-      color: $primary-dark-color;
+      padding-left: 24px;
     }
 
     .hamb {

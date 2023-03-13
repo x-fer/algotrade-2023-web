@@ -7,6 +7,25 @@
     margin-bottom: 32px;
   }
 
+  .coming-soon {
+    font-size: 22px;
+
+    a {
+      text-decoration: none;
+      color: $primary-accent-color;
+
+      &:hover {
+        filter: brightness(0.85);
+      }
+
+      &:active {
+        filter: brightness(0.95);
+      }
+
+      transition: filter 0.25s;
+    }
+  }
+
   .at-radio-button {
     margin-bottom: 32px;
   }

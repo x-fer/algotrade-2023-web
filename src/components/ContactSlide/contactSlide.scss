@@ -1,0 +1,30 @@
+@import "../../styles/constants.scss";
+
+.at-contact-slide {
+  .at-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+
+  .at-contact {
+    font-size: 18px;
+    font-weight: 500;
+
+    a {
+      font-weight: 400;
+
+      color: $primary-accent-color;
+
+      &:hover {
+        filter: brightness(0.85);
+      }
+
+      &:active {
+        filter: brightness(0.95);
+      }
+
+      transition: filter 0.25s;
+    }
+  }
+}

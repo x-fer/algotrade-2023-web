@@ -13,7 +13,7 @@ const PartnersSlide = () => {
           <div className="at-partner" key={partner.website}>
             <a href={partner.website} target="_blank" rel="noreferrer">
               <img
-                className="at-partner-logo"
+                className={`at-partner-logo ${partner.dark ? "dark" : ""}`}
                 alt={`${partner.name} logo`}
                 title={partner.name}
                 src={partner.imgSrc}

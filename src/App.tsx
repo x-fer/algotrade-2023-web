@@ -2,7 +2,7 @@ import React from "react";
 import "./App.scss";
 import AboutSlide from "./components/AboutSlide/AboutSlide";
 import ApplySlide from "./components/ApplySlide/ApplySlide";
-// import ContactSlide from "./components/ContactSlide/ContactSlide";
+import ContactSlide from "./components/ContactSlide/ContactSlide";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HomeSlide from "./components/HomeSlide/HomeSlide";
@@ -19,7 +19,7 @@ function App() {
         <PartnersSlide />
         <ScheduleSlide />
         <ApplySlide />
-        {/* <ContactSlide /> */}
+        <ContactSlide />
       </main>
       <Footer />
     </div>

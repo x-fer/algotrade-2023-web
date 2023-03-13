@@ -30,11 +30,26 @@ const ScheduleSlide = () => {
   return (
     <Slide className="at-schedule-slide" id="schedule">
       <div className="at-title">Raspored</div>
+
+      <div className="coming-soon">
+        Detaljan raspored predavanja ćemo objaviti uskoro, za više informacija
+        zapratite naš{" "}
+        <a
+          href="https://www.instagram.com/algotrade_hackathon/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Instagram
+        </a>
+        .
+      </div>
+
+      {/* 
       <RadioButton
         data={radioButtonData}
         activeElement={activeDay}
         onChange={setActiveDay}
-      />
+      /> 
 
       {scheduleData[activeDay].map((event, idx) => (
         <div className="at-event-card" key={event.timeAndLocation + "-" + idx}>
@@ -57,7 +72,8 @@ const ScheduleSlide = () => {
           </div>
           <div className="at-event-description">{event.description}</div>
         </div>
-      ))}
+      ))} 
+      */}
     </Slide>
   );
 };
