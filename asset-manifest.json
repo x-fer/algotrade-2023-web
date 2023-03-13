@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./algotrade-2023-web/static/css/main.9bef13a2.css",
-    "main.js": "./algotrade-2023-web/static/js/main.03fb425d.js",
-    "static/media/avl-logo.png": "./algotrade-2023-web/static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
-    "static/media/stablo-znanja-logo.png": "./algotrade-2023-web/static/media/stablo-znanja-logo.7a852d9ec55a3ee76238.png",
-    "static/media/asee-logo.png": "./algotrade-2023-web/static/media/asee-logo.725b3edcafd3f63be37a.png",
-    "static/media/zagrebacka-burza-logo.png": "./algotrade-2023-web/static/media/zagrebacka-burza-logo.f1b50bba38d21724be01.png",
-    "static/media/DESIGNER.otf": "./algotrade-2023-web/static/media/DESIGNER.5bce54baf24bd63167e1.otf",
-    "static/media/intercapital-logo.png": "./algotrade-2023-web/static/media/intercapital-logo.7c8acf667788ff8e6820.png",
-    "index.html": "./algotrade-2023-web/index.html",
-    "main.9bef13a2.css.map": "./algotrade-2023-web/static/css/main.9bef13a2.css.map",
-    "main.03fb425d.js.map": "./algotrade-2023-web/static/js/main.03fb425d.js.map"
+    "main.css": "/algotrade/static/css/main.2fe50f26.css",
+    "main.js": "/algotrade/static/js/main.9223c950.js",
+    "static/media/avl-logo.png": "/algotrade/static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
+    "static/media/stablo-znanja-logo.png": "/algotrade/static/media/stablo-znanja-logo.7a852d9ec55a3ee76238.png",
+    "static/media/asee-logo.png": "/algotrade/static/media/asee-logo.725b3edcafd3f63be37a.png",
+    "static/media/zagrebacka-burza-logo.png": "/algotrade/static/media/zagrebacka-burza-logo.f1b50bba38d21724be01.png",
+    "static/media/DESIGNER.otf": "/algotrade/static/media/DESIGNER.5bce54baf24bd63167e1.otf",
+    "static/media/intercapital-logo.png": "/algotrade/static/media/intercapital-logo.7c8acf667788ff8e6820.png",
+    "index.html": "/algotrade/index.html",
+    "main.2fe50f26.css.map": "/algotrade/static/css/main.2fe50f26.css.map",
+    "main.9223c950.js.map": "/algotrade/static/js/main.9223c950.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bef13a2.css",
-    "static/js/main.03fb425d.js"
+    "static/css/main.2fe50f26.css",
+    "static/js/main.9223c950.js"
   ]
 }
