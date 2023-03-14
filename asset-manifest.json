@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.10a47992.css",
+    "main.css": "./static/css/main.83d37b4b.css",
     "main.js": "./static/js/main.18ce970c.js",
     "static/media/avl-logo.png": "./static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
     "static/media/stablo-znanja-logo.png": "./static/media/stablo-znanja-logo.7a852d9ec55a3ee76238.png",
@@ -9,11 +9,11 @@
     "static/media/DESIGNER.otf": "./static/media/DESIGNER.5bce54baf24bd63167e1.otf",
     "static/media/intercapital-logo.png": "./static/media/intercapital-logo.7c8acf667788ff8e6820.png",
     "index.html": "./index.html",
-    "main.10a47992.css.map": "./static/css/main.10a47992.css.map",
+    "main.83d37b4b.css.map": "./static/css/main.83d37b4b.css.map",
     "main.18ce970c.js.map": "./static/js/main.18ce970c.js.map"
   },
   "entrypoints": [
-    "static/css/main.10a47992.css",
+    "static/css/main.83d37b4b.css",
     "static/js/main.18ce970c.js"
   ]
 }
