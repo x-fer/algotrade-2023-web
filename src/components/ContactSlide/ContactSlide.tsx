@@ -7,6 +7,10 @@ const ContactSlide = () => {
     <Slide className="at-contact-slide" id="contact">
       <div className="at-title">Kontakt</div>
 
+      <div className="at-contact-subtitle">
+        Ako imate bilo kakva pitanja, slobodno nam se obratite!
+      </div>
+
       <div className="at-contact">
         E-mail:{" "}
         <a href="mailto:algo.trade.hackathon@gmail.com">

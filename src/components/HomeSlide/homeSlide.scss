@@ -19,9 +19,21 @@
     z-index: -1;
   }
 
-  @media screen and (min-width: 901px) {
+  @media screen and (min-width: 1201px) {
     .inner-div {
       padding: 0px 320px;
+      width: 900px;
+
+      .slogan {
+        font-size: 90px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1200px) {
+    .inner-div {
+      padding: 0px 128px;
       width: 900px;
 
       .slogan {

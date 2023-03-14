@@ -145,8 +145,23 @@
     }
   }
 
+  @media screen and (min-width: 901px) and (max-width: 1200px) {
+    padding: 0px 128px;
+
+    .nav {
+      ul {
+        padding-left: 128px;
+
+        li {
+          font-size: 20px;
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+
   /* Responsiveness */
-  @media (min-width: 901px) {
+  @media (min-width: 1201px) {
     .nav {
       max-height: none;
       top: 0;

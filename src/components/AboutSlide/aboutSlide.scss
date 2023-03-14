@@ -18,6 +18,53 @@
     margin-top: 16px;
   }
 
+  .at-event-prizes {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
+    margin: 32px 0px;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .at-event-prize {
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+      .at-prize-amount {
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      .at-prize-description {
+        font-weight: 500;
+      }
+
+      &.gold {
+        background-color: gold;
+      }
+
+      &.silver {
+        background-color: silver;
+      }
+
+      &.bronze {
+        background-color: #cd7f32;
+      }
+    }
+  }
+
   .event-name {
     font-family: "Designer";
     font-weight: 500;
