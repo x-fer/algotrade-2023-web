@@ -9,6 +9,15 @@
   padding: 0px;
 
   scroll-margin-top: 60px;
+  background-color: transparent;
+  overflow: hidden;
+
+  .at-graph-animation {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
 
   @media screen and (min-width: 901px) {
     .inner-div {

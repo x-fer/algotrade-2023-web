@@ -1,11 +1,13 @@
 import React from "react";
 import Button from "../Button/Button";
+import GraphAnimation from "../GraphAnimation/GraphAnimation";
 import Slide from "../Slide/Slide";
 import "./homeSlide.scss";
 
 const HomeSlide = () => {
   return (
     <Slide className="at-home-slide" id="home">
+      <GraphAnimation />
       <div className="inner-div">
         <div className="slogan">Crack the code to financial success!</div>
         <div className="slogan-subtitle">
