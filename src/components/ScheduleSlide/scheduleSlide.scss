@@ -7,8 +7,34 @@
     margin-bottom: 32px;
   }
 
+  .at-schedule-data-wrapper {
+    position: relative;
+
+    .blur-wrapper {
+      filter: blur(10px);
+    }
+
+    .coming-soon-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      z-index: 2;
+    }
+  }
+
   .coming-soon {
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 500;
+    width: 60%;
+    padding: 32px;
+    border-radius: 8px;
+    background-color: #1b1e27cc;
+    box-shadow: 0px 0px 16px 8px #ccc;
+    color: $primary-light-color;
 
     a {
       text-decoration: none;

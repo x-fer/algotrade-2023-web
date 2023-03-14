@@ -15,7 +15,7 @@ const Footer = () => {
         </a>{" "}
         | 2023
       </div>
-      <div>
+      {/* <div>
         <a href="/" target="_blank" rel="noreferrer">
           Terms of service
         </a>
@@ -23,8 +23,27 @@ const Footer = () => {
         <a href="/" target="_blank" rel="noreferrer">
           Privacy policy
         </a>
+      </div> */}
+      <div className="social-links">
+        <a
+          href="https://www.instagram.com/algotrade_hackathon/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="social-icon"
+            alt="Instagram link"
+            src={require("../../resources/social-icons/icons8-instagram-50.png")}
+          />
+        </a>
+        {/* <a href="https://google.com" target="_blank" rel="noreferrer">
+          <img
+            className="social-icon"
+            alt="LinkedIn link"
+            src={require("../../resources/social-icons/icons8-linkedin-50.png")}
+          />
+        </a> */}
       </div>
-      <div>Social media links go here</div>
     </Slide>
   );
 };

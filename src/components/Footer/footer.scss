@@ -1,24 +1,20 @@
 @import "../../styles/constants.scss";
 
 .at-footer {
-  // padding: 60px 320px;
   box-sizing: border-box;
 
   background-color: $primary-dark-color;
 
-  div {
-    opacity: 60%;
-  }
-
   div,
   a {
-    color: $primary-light-color;
+    color: hsla(0, 0%, 100%, 0.7);
     text-decoration: none;
     font-weight: 300;
   }
 
   a:hover {
     text-decoration: underline;
+    color: hsla(0, 0%, 100%, 0.9);
   }
 
   a {
@@ -28,6 +24,22 @@
   width: 100%;
 
   display: flex;
+
+  .social-links {
+    display: flex;
+    gap: 8px;
+
+    .social-icon {
+      width: 24px;
+      opacity: 70%;
+
+      transition: opacity 0.25s;
+
+      &:hover {
+        opacity: 90%;
+      }
+    }
+  }
 
   @media screen and (min-width: 901px) {
     flex-direction: row;
