@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.83d37b4b.css",
-    "main.js": "./static/js/main.18ce970c.js",
+    "main.css": "./static/css/main.776be56a.css",
+    "main.js": "./static/js/main.fe943e82.js",
+    "static/media/speaker-2.png": "./static/media/speaker-2.70c611bada7a89fc8e0f.png",
+    "static/media/speaker-1.png": "./static/media/speaker-1.76e96caf07a8da6b9491.png",
+    "static/media/speaker-3.png": "./static/media/speaker-3.8558cdeb41f30e38c6bc.png",
     "static/media/avl-logo.png": "./static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
     "static/media/stablo-znanja-logo.png": "./static/media/stablo-znanja-logo.7a852d9ec55a3ee76238.png",
     "static/media/asee-logo.png": "./static/media/asee-logo.725b3edcafd3f63be37a.png",
@@ -9,11 +12,11 @@
     "static/media/DESIGNER.otf": "./static/media/DESIGNER.5bce54baf24bd63167e1.otf",
     "static/media/intercapital-logo.png": "./static/media/intercapital-logo.7c8acf667788ff8e6820.png",
     "index.html": "./index.html",
-    "main.83d37b4b.css.map": "./static/css/main.83d37b4b.css.map",
-    "main.18ce970c.js.map": "./static/js/main.18ce970c.js.map"
+    "main.776be56a.css.map": "./static/css/main.776be56a.css.map",
+    "main.fe943e82.js.map": "./static/js/main.fe943e82.js.map"
   },
   "entrypoints": [
-    "static/css/main.83d37b4b.css",
-    "static/js/main.18ce970c.js"
+    "static/css/main.776be56a.css",
+    "static/js/main.fe943e82.js"
   ]
 }
