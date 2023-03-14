@@ -24,9 +24,9 @@ const AboutSlide = () => {
         <br />
         Nakon predavanja slijedi hacking dio natjecanja. Timovi dobivaju zadatak
         i rješavaju ga koristeći novostečeno znanjem te osobno iskustvo. Zadatak
-        bi bio jednostavan za razumjeti no izrazito težak za optimalno riješiti.
-        Timovi bi imali određeno vrijeme da smisle i implementiraju rješenje, a
-        po završetku natjecanja bi prezentirali svoja rješenja.
+        će biti jednostavan za razumjeti no izrazito težak za optimalno
+        riješiti. Timovi će imati određeno vrijeme da smisle i implementiraju
+        rješenje, a po završetku natjecanja će svoja rješenja i prezentirati.
       </div>
 
       <div className="at-event-prizes">
