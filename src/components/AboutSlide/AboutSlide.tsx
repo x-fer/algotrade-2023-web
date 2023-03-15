@@ -72,9 +72,9 @@ const AboutSlide = () => {
         druženje, radionice i brojne druge edukativne sadržaje.
         <br />
         Članovi Financijskog kluba su studenti Ekonomskog fakulteta u Zagrebu
-        (EFZG), Fakulteta elektronike i računarstva (FER 10% članova) visokih i
-        viših poslovnih škola (RIT, VERN, ZŠEM, LIBERTAS) te
-        Prirodoslovno-matematičkog fakulteta (PMF 5 % članova).
+        (EFZG), Fakulteta elektronike i računarstva, visokih i viših poslovnih
+        škola (RIT, VERN, ZŠEM, LIBERTAS) te Prirodoslovno-matematičkog
+        fakulteta.
         <br />
         Misija Financijskog kluba: Svojim članovima omogućiti dodatno
         obrazovanje u vidu stjecanja teorijskih i praktičnih znanja, iskustava i
