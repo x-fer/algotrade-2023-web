@@ -10,8 +10,9 @@ const HomeSlide = () => {
       <GraphAnimation />
       <div className="inner-div">
         <div className="slogan">Crack the code to financial success!</div>
+        <div className="slogan-subtitle">Otvorenje - 28. ožujka - FER </div>
         <div className="slogan-subtitle">
-          Predavanja - od 29. do 31. ožujka - FER{" "}
+          Predavanja - od 28. do 31. ožujka - FER{" "}
         </div>
         <div className="slogan-subtitle">
           Hackathon - od 1. do 2. travnja - Studentski centar

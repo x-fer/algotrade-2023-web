@@ -16,19 +16,22 @@ const AboutSlide = () => {
         Projekt je zamišljen kao hackathon, a ciljana skupina su studenti FER-a
         i Ekonomskog fakulteta jer je zadatak koji će rješavati vezan uz
         područje arbitraže i tradinga.
-        <br />
+      </div>
+      <div className="subtitle">Predavanja</div>
+      <div className="event-description">
         Prije samog natjecanja studenti će imati tematska predavanja u trajanju
-        od 3 dana na kojima će steći znanja i kompetencije iz oba područja,
+        od 4 dana na kojima će steći znanja i kompetencije iz oba područja,
         ekonomije i tehnologije. Predavanja će održavati cijenjeni ekonomisti i
         osobe iz industrije.
-        <br />
+      </div>
+      <div className="subtitle">Hackathon</div>
+      <div className="event-description">
         Nakon predavanja slijedi hacking dio natjecanja. Timovi dobivaju zadatak
         i rješavaju ga koristeći novostečeno znanjem te osobno iskustvo. Zadatak
         će biti jednostavan za razumjeti no izrazito težak za optimalno
         riješiti. Timovi će imati određeno vrijeme da smisle i implementiraju
         rješenje, a po završetku natjecanja će svoja rješenja i prezentirati.
       </div>
-
       <div className="at-event-prizes">
         <div className="at-event-prize gold">
           <div className="at-prize-amount">2000€</div>
@@ -42,6 +45,16 @@ const AboutSlide = () => {
           <div className="at-prize-amount">1000€</div>
           <div className="at-prize-description">Nagrada za 3. mjesto</div>
         </div>
+      </div>
+
+      <div className="subtitle-smaller">Ukratko:</div>
+      <div className="event-description">
+        <ul className="event-description-list">
+          <li>Mjesto: Studentski centar Sveučilišta u Zagrebu</li>
+          <li>Vrijeme: 1. travnja u 9:00h</li>
+          <li>Trajanje: 24 sata</li>
+          <li>Timovi: do 5 članova</li>
+        </ul>
       </div>
 
       <div className="subtitle">X.FER</div>
