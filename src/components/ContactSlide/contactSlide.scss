@@ -48,10 +48,13 @@
 
       display: flex;
       justify-content: space-between;
+      text-align: left;
+      align-items: center;
 
       width: 100%;
-      background-color: silver;
+      background-color: #ddd;
       color: $primary-dark-color;
+      border-radius: 4px;
 
       padding: 16px;
       margin-top: 8px;
@@ -67,6 +70,16 @@
         padding-bottom: 0px;
         font-size: 0px;
         color: transparent;
+      }
+
+      a {
+        color: $primary-accent-color;
+
+        &:hover {
+          filter: brightness(0.9);
+        }
+
+        transition: filter 0.2s;
       }
 
       padding: 16px;
