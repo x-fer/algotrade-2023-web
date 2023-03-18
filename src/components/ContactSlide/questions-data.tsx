@@ -12,7 +12,7 @@ export const questionsData: FaqQuestion[] = [
   {
     question: "Tko može sudjelovati na AlgoTrade hackathonu?",
     answer:
-      "Prijave su otvorene za sve studente koji imaju pravo na studentski rad.",
+      "Prijave su otvorene za sve redovne studente koji studiraju u Republici Hrvatskoj.",
   },
   {
     question: "Kako se prijaviti na AlgoTrade?",
@@ -68,7 +68,8 @@ export const questionsData: FaqQuestion[] = [
   {
     question:
       "Ne planiram sudjelovati na Hackathonu, mogu li svejedno doći na predavanja?",
-    answer: "",
+    answer:
+      "Naravno! Prati naše objave na Instagramu, gdje ćemo objavljivati detalje o predavanjima.",
   },
 
   {
