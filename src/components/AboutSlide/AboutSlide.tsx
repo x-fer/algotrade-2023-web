@@ -24,6 +24,18 @@ const AboutSlide = () => {
         ekonomije i tehnologije. Predavanja će održavati cijenjeni ekonomisti i
         osobe iz industrije.
       </div>
+
+      <div className="subtitle-smaller">Ukratko o Predavanjima:</div>
+      <div className="event-description">
+        <ul className="event-description-list">
+          <li>
+            Mjesto: Fakultet elektrotehnike i računarstva, Unska 3, Zagreb
+          </li>
+          <li>Vrijeme: od 28. do 31. ožujka 2023.</li>
+          <li>Teme: financije, trading, tehnologija</li>
+        </ul>
+      </div>
+
       <div className="subtitle">Hackathon</div>
       <div className="event-description">
         Nakon predavanja slijedi hacking dio natjecanja. Timovi dobivaju zadatak
@@ -47,11 +59,14 @@ const AboutSlide = () => {
         </div>
       </div>
 
-      <div className="subtitle-smaller">Ukratko:</div>
+      <div className="subtitle-smaller">Ukratko o Hackathonu:</div>
       <div className="event-description">
         <ul className="event-description-list">
-          <li>Mjesto: Studentski centar Sveučilišta u Zagrebu</li>
-          <li>Vrijeme: 1. travnja u 9:00h</li>
+          <li>
+            Mjesto: Studentski centar Sveučilišta u Zagrebu, Savska cesta 25,
+            Zagreb
+          </li>
+          <li>Početak: 1. travnja 2023. u 9:00h</li>
           <li>Trajanje: 24 sata</li>
           <li>Timovi: do 5 članova</li>
         </ul>
