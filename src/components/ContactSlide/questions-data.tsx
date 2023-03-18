@@ -75,7 +75,7 @@ export const questionsData: FaqQuestion[] = [
   {
     question: "Mogu li sudjelovati od kuće?",
     answer:
-      "Nažalost ne, ideja Hackathona je da se svi timovi okupe na jednom mjestu",
+      "Nažalost ne, ideja Hackathona je da se svi timovi okupe na jednom mjestu.",
   },
   {
     question: "Dokad su otvorene prijave?",
