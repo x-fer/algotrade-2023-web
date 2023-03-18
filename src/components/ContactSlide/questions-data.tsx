@@ -61,7 +61,7 @@ export const questionsData: FaqQuestion[] = [
       "Bodovat će se uspješnost vašeg algoritma, ali i prezentacija vašeg rješenja.",
   },
   {
-    question: "Što sve trebam ponijeti sa sobom na hackathon?",
+    question: "Što sve trebam ponijeti sa sobom na Hackathon?",
     answer:
       "Ponesite laptope i sve što mislite da bi vam moglo biti potrebno! Na mjestu održavanja će biti osigurana hrana i piće.",
   },
@@ -75,7 +75,7 @@ export const questionsData: FaqQuestion[] = [
   {
     question: "Mogu li sudjelovati od kuće?",
     answer:
-      "Nažalost ne, ideja hackathona je da se svi timovi okupe na jednom mjestu",
+      "Nažalost ne, ideja Hackathona je da se svi timovi okupe na jednom mjestu",
   },
   {
     question: "Dokad su otvorene prijave?",
