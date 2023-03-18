@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.3b44d2fa.css",
-    "main.js": "./static/js/main.7081a714.js",
+    "main.css": "./static/css/main.db9263c7.css",
+    "main.js": "./static/js/main.22618868.js",
     "static/media/speaker-2.png": "./static/media/speaker-2.70c611bada7a89fc8e0f.png",
     "static/media/speaker-1.png": "./static/media/speaker-1.76e96caf07a8da6b9491.png",
     "static/media/speaker-3.png": "./static/media/speaker-3.8558cdeb41f30e38c6bc.png",
@@ -12,11 +12,11 @@
     "static/media/DESIGNER.otf": "./static/media/DESIGNER.5bce54baf24bd63167e1.otf",
     "static/media/intercapital-logo.png": "./static/media/intercapital-logo.7c8acf667788ff8e6820.png",
     "index.html": "./index.html",
-    "main.3b44d2fa.css.map": "./static/css/main.3b44d2fa.css.map",
-    "main.7081a714.js.map": "./static/js/main.7081a714.js.map"
+    "main.db9263c7.css.map": "./static/css/main.db9263c7.css.map",
+    "main.22618868.js.map": "./static/js/main.22618868.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b44d2fa.css",
-    "static/js/main.7081a714.js"
+    "static/css/main.db9263c7.css",
+    "static/js/main.22618868.js"
   ]
 }
