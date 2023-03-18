@@ -42,7 +42,7 @@ const ContactSlide = () => {
       {questionsData && questionsData.length > 0 && (
         <div className="at-questions-container">
           {questionsData.map((faqEntry, idx) => (
-            <>
+            <div key={`faq-entry-${idx}`}>
               <button
                 onClick={(e) => handleQuestionToggle(idx)}
                 className="at-faq-question"
@@ -54,13 +54,10 @@ const ContactSlide = () => {
                 className={`at-faq-answer ${
                   activeQuestions.includes(idx) ? "active" : "not-active"
                 }`}
-                // style={{
-                //   maxHeight: activeQuestions.includes(idx) ? "100px" : "0px",
-                // }}
               >
                 {faqEntry.answer}
               </div>
-            </>
+            </div>
           ))}
         </div>
       )}
