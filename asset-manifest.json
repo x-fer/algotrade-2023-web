@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.96ac77f9.css",
-    "main.js": "./static/js/main.24cf672c.js",
+    "main.js": "./static/js/main.d0def72e.js",
     "static/media/speaker-2.png": "./static/media/speaker-2.70c611bada7a89fc8e0f.png",
     "static/media/speaker-1.png": "./static/media/speaker-1.76e96caf07a8da6b9491.png",
     "static/media/speaker-3.png": "./static/media/speaker-3.8558cdeb41f30e38c6bc.png",
@@ -13,10 +13,10 @@
     "static/media/intercapital-logo.png": "./static/media/intercapital-logo.7c8acf667788ff8e6820.png",
     "index.html": "./index.html",
     "main.96ac77f9.css.map": "./static/css/main.96ac77f9.css.map",
-    "main.24cf672c.js.map": "./static/js/main.24cf672c.js.map"
+    "main.d0def72e.js.map": "./static/js/main.d0def72e.js.map"
   },
   "entrypoints": [
     "static/css/main.96ac77f9.css",
-    "static/js/main.24cf672c.js"
+    "static/js/main.d0def72e.js"
   ]
 }
