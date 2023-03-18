@@ -16,8 +16,7 @@ const ContactSlide = () => {
 
   return (
     <Slide className="at-contact-slide" id="contact">
-      {/* Dodaj " i česta pitanja" u title kad smisliš FAQ */}
-      <div className="at-title">Kontakt</div>
+      <div className="at-title">Kontakt i česta pitanja</div>
 
       <div className="at-contact-subtitle">
         Ako imate bilo kakva pitanja, slobodno nam se obratite!
