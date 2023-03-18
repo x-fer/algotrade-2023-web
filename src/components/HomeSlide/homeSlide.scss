@@ -8,9 +8,9 @@
 
   padding: 0px;
 
-  scroll-margin-top: 60px;
+  scroll-margin-top: $header-height;
   background-color: transparent;
-  overflow: hidden;
+  overflow: clip;
 
   .at-graph-animation {
     position: absolute;

@@ -14,7 +14,7 @@ const Header = () => {
         className="side-menu"
         type="checkbox"
         checked={mobileNavOpen}
-        onClick={() => setMobileNavOpen(!mobileNavOpen)}
+        onChange={() => setMobileNavOpen(!mobileNavOpen)}
         id="side-menu"
       />
       <label className="hamb" htmlFor="side-menu">

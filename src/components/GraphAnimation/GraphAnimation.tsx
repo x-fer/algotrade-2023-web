@@ -90,9 +90,10 @@ const GraphAnimation = () => {
 
   return (
     <div className="at-graph-animation">
-      {particles.map((particle) => (
+      {particles.map((particle, idx) => (
         <div
           className="at-particle"
+          key={`particle-${idx}`}
           style={{
             top: `${particle.yPos - 50}%`,
             left: `${particle.xPos - 50}%`,
