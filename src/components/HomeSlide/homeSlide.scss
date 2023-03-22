@@ -19,7 +19,7 @@
     z-index: -1;
   }
 
-  @media screen and (min-width: 1201px) {
+  @media screen and (min-width: 1501px) {
     .inner-div {
       padding: 0px 320px;
       width: 900px;
@@ -31,7 +31,19 @@
     }
   }
 
-  @media screen and (min-width: 901px) and (max-width: 1200px) {
+  @media screen and (min-width: 1401px) and (max-width: 1500px) {
+    .inner-div {
+      padding: 0px 240px;
+      width: 900px;
+
+      .slogan {
+        font-size: 90px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1400px) {
     .inner-div {
       padding: 0px 128px;
       width: 900px;
