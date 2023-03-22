@@ -54,6 +54,10 @@
 
   .at-radio-button {
     margin-bottom: 32px;
+
+    @media (max-width: 900px) {
+      margin-bottom: 16px;
+    }
   }
 
   .at-event-card {

@@ -9,93 +9,94 @@ export type ScheduleItem = {
 
 const day1: ScheduleItem[] = [
   {
-    hostImgSrc: require("../../resources/schedule-hosts/day1/speaker-1.png"),
-    hostName: "John Doe",
-    hostDescription: "John is a developer at XYZ Corp.",
-    name: "Introduction to TypeScript",
-    timeAndLocation: "9:00 AM - Room A",
-    description:
-      "Learn the basics of TypeScript and how it can improve your code.",
+    hostName: "X.FER & Financijski klub",
+    hostDescription: "Organizatori Hackathona",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/AlgoTrade.png"),
+    name: "Svečano otvorenje",
+    timeAndLocation: "28.3.2023. u 17:00h, Siva vijećnica na FER-u",
+    description: "",
   },
   {
-    hostImgSrc: require("../../resources/schedule-hosts/day1/speaker-2.png"),
-    hostName: "Jane Smith",
-    hostDescription: "Jane is a software engineer at ABC Corp.",
-    name: "Advanced React Techniques",
-    timeAndLocation: "1:00 PM - Room B",
-    description:
-      "Explore some of the more advanced features of React and how they can be used to build better user interfaces.",
-  },
-  {
-    hostImgSrc: require("../../resources/schedule-hosts/day1/speaker-3.png"),
-    hostName: "Bob Johnson",
-    hostDescription: "Bob is a full-stack developer and consultant.",
-    name: "Building Serverless Applications with AWS Lambda",
-    timeAndLocation: "3:00 PM - Room C",
-    description:
-      "Learn how to build and deploy serverless applications using AWS Lambda and other cloud services.",
+    hostName: "Gost iznenađenja",
+    hostDescription: "Veliki stručnjak :)",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Gost Iznenadenja.png"),
+    name: "Predavanje iznenađenja",
+    timeAndLocation: "28.3.2023. u 18.00h, Siva vijećnica na FER-u",
+    description: "",
   },
 ];
 
 const day2: ScheduleItem[] = [
   {
-    hostImgSrc: require("../../resources/schedule-hosts/day2/speaker-1.png"),
-    hostName: "Alice Lee",
-    hostDescription: "Alice is a front-end developer at XYZ Corp.",
-    name: "Modern CSS Layouts",
-    timeAndLocation: "10:00 AM - Room A",
-    description:
-      "Discover modern CSS layout techniques that will help you create complex designs with ease.",
+    hostName: "Matej Čondra, Filip Benasić",
+    hostDescription: "Ericsson Nikola Tesla",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Ericsson.png"),
+    name: "Kod s 0 grešaka",
+    timeAndLocation: "29.3.2023. u 16:00h, A302 na FER-u",
+    description: "",
   },
   {
-    hostImgSrc: require("../../resources/schedule-hosts/day2/speaker-2.png"),
-    hostName: "Bob Smith",
-    hostDescription: "Bob is a full-stack developer at ABC Corp.",
-    name: "Building Scalable Web Applications",
-    timeAndLocation: "1:00 PM - Room B",
-    description:
-      "Learn how to design and implement scalable web applications that can handle high traffic and user demand.",
-  },
-  {
-    hostImgSrc: require("../../resources/schedule-hosts/day2/speaker-3.png"),
-    hostName: "Charlie Brown",
-    hostDescription:
-      "Charlie is a software engineer and open-source contributor.",
-    name: "Contributing to Open Source",
-    timeAndLocation: "3:00 PM - Room C",
-    description:
-      "Get involved in the open-source community and learn how you can contribute to projects that interest you.",
+    hostName: "Goran Dubček",
+    hostDescription: "InterCapital Asset Management",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Goran Dubcek - ICAM.png"),
+    name: "Utjecaj market making opcija na tržište",
+    timeAndLocation: "29.3.2023. u 18:00h, A302 na FER-u",
+    description: "",
   },
 ];
 
 const day3: ScheduleItem[] = [
   {
-    hostImgSrc: require("../../resources/schedule-hosts/day3/speaker-1.png"),
-    hostName: "Eva Chen",
-    hostDescription: "Eva is a software engineer at XYZ Corp.",
-    name: "Writing Clean Code",
-    timeAndLocation: "9:00 AM - Room A",
-    description:
-      "Learn how to write clean and maintainable code that is easy to read and understand.",
+    hostName: "Ozren Iljadica",
+    hostDescription: "Zagrebačka Burza",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Ozren Iljadica - Zagrebacka Burza.png"),
+    name: "Upravljanje portfeljem",
+    timeAndLocation: "30.3.2023. u 16:00h, A201 na FER-u",
+    description: "",
   },
   {
-    hostImgSrc: require("../../resources/schedule-hosts/day3/speaker-2.png"),
-    hostName: "Frank Lee",
-    hostDescription: "Frank is a full-stack developer and tech enthusiast.",
-    name: "The Future of Web Development",
-    timeAndLocation: "1:00 PM - Room B",
-    description:
-      "Explore the latest trends and technologies in web development and discover what the future holds for the industry.",
+    hostName: "Hrvoje Abraham",
+    hostDescription: "AVL in Croatia",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Hrvoje Abraham - AVL.png"),
+    name: "Novo otkriće brzog algoritma za najkraći put u grafovima s negativnim težinama",
+    timeAndLocation: "30.3.2023. u 17:20h, A201 na FER-u",
+    description: "",
   },
   {
-    hostImgSrc: require("../../resources/schedule-hosts/day3/speaker-3.png"),
-    hostName: "Grace Kim",
-    hostDescription: "Grace is a front-end developer and UI/UX designer.",
-    name: "Designing Responsive Web Applications",
-    timeAndLocation: "3:00 PM - Room C",
-    description:
-      "Learn how to design responsive web applications that adapt to different screen sizes and devices.",
+    hostName: "Ivan Bimbi",
+    hostDescription: "Croatia Osiguranje",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Ivan Bimbi - Croatia osiguranje.png"),
+    name: "LAQO - Case Study",
+    timeAndLocation: "30.3.2023. u 18:40h, A201 na FER-u",
+    description: "",
   },
 ];
 
-export const scheduleData = [day1, day2, day3];
+const day4: ScheduleItem[] = [
+  {
+    hostName: "Marija Herceg",
+    hostDescription: "Invento Capital Partners",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Marija Herceg - Invento.png"),
+    name: "Comms and promos tips & tricks - Digitalni marketing, društvene mreže i ostale promotivne aktivnosti",
+    timeAndLocation: "31.3.2023. u 16:00h, A201 na FER-u",
+    description: "",
+  },
+  {
+    hostName: "Karlo Kukec",
+    hostDescription: "Invento Capital Partners",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Karlo Kukec - Invento.png"),
+    name: "Pitcham ti priču - Alati, tehnike i vještine prezentiranja",
+    timeAndLocation: "31.3.2023. u 17:20h, A201 na FER-u",
+    description: "",
+  },
+  {
+    hostName: "Stipe Bumber",
+    hostDescription: "Financijski klub",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Stipe Bumber - FK.png"),
+    name: "Hakiranje nekretnina",
+    timeAndLocation: "31.3.2023. u 18:40h, A201 na FER-u",
+    description: "",
+  },
+];
+
+export const scheduleData = [day1, day2, day3, day4];
