@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.a85ee86b.css",
+    "main.css": "./static/css/main.feb5594f.css",
     "main.js": "./static/js/main.2de79c21.js",
     "static/media/Ivan Bimbi - Croatia osiguranje.png": "./static/media/Ivan Bimbi - Croatia osiguranje.a192418b5b0800554f81.png",
     "static/media/Stipe Bumber - FK.png": "./static/media/Stipe Bumber - FK.b9a9d52111f6b3b322e3.png",
@@ -18,11 +18,11 @@
     "static/media/AlgoTrade.png": "./static/media/AlgoTrade.567ad01a53d0e923dc44.png",
     "static/media/intercapital-logo.png": "./static/media/intercapital-logo.7c8acf667788ff8e6820.png",
     "index.html": "./index.html",
-    "main.a85ee86b.css.map": "./static/css/main.a85ee86b.css.map",
+    "main.feb5594f.css.map": "./static/css/main.feb5594f.css.map",
     "main.2de79c21.js.map": "./static/js/main.2de79c21.js.map"
   },
   "entrypoints": [
-    "static/css/main.a85ee86b.css",
+    "static/css/main.feb5594f.css",
     "static/js/main.2de79c21.js"
   ]
 }
