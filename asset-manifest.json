@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "./static/css/main.feb5594f.css",
-    "main.js": "./static/js/main.2de79c21.js",
+    "main.js": "./static/js/main.94a35bba.js",
     "static/media/Ivan Bimbi - Croatia osiguranje.png": "./static/media/Ivan Bimbi - Croatia osiguranje.a192418b5b0800554f81.png",
     "static/media/Stipe Bumber - FK.png": "./static/media/Stipe Bumber - FK.b9a9d52111f6b3b322e3.png",
     "static/media/Marija Herceg - Invento.png": "./static/media/Marija Herceg - Invento.33107489ec744b0b6acd.png",
     "static/media/avl-logo.png": "./static/media/avl-logo.f3bd4b4e545f6562ef7a.png",
     "static/media/Ozren Iljadica - Zagrebacka Burza.png": "./static/media/Ozren Iljadica - Zagrebacka Burza.2ac3e4acf6ab216e7bf8.png",
+    "static/media/Tomislav Buric - FER.png": "./static/media/Tomislav Buric - FER.b51812c05f10e8535dbc.png",
     "static/media/Hrvoje Abraham - AVL.png": "./static/media/Hrvoje Abraham - AVL.acc3cf1767c8d9939ea3.png",
     "static/media/Karlo Kukec - Invento.png": "./static/media/Karlo Kukec - Invento.6ba9d7e63aeda563a9aa.png",
     "static/media/Goran Dubcek - ICAM.png": "./static/media/Goran Dubcek - ICAM.f2a71655e3a1d4d72c0d.png",
@@ -14,15 +15,14 @@
     "static/media/asee-logo.png": "./static/media/asee-logo.725b3edcafd3f63be37a.png",
     "static/media/zagrebacka-burza-logo.png": "./static/media/zagrebacka-burza-logo.f1b50bba38d21724be01.png",
     "static/media/DESIGNER.otf": "./static/media/DESIGNER.5bce54baf24bd63167e1.otf",
-    "static/media/Gost Iznenadenja.png": "./static/media/Gost Iznenadenja.d525e01d8172671df61a.png",
     "static/media/AlgoTrade.png": "./static/media/AlgoTrade.567ad01a53d0e923dc44.png",
     "static/media/intercapital-logo.png": "./static/media/intercapital-logo.7c8acf667788ff8e6820.png",
     "index.html": "./index.html",
     "main.feb5594f.css.map": "./static/css/main.feb5594f.css.map",
-    "main.2de79c21.js.map": "./static/js/main.2de79c21.js.map"
+    "main.94a35bba.js.map": "./static/js/main.94a35bba.js.map"
   },
   "entrypoints": [
     "static/css/main.feb5594f.css",
-    "static/js/main.2de79c21.js"
+    "static/js/main.94a35bba.js"
   ]
 }
