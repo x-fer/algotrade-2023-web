@@ -29,8 +29,12 @@
       filter: brightness(0.85);
     }
 
-    &:active {
+    &:not(.disabled):active {
       filter: brightness(0.95);
+    }
+
+    &.disabled {
+      cursor: not-allowed;
     }
 
     transition: filter 0.25s;
