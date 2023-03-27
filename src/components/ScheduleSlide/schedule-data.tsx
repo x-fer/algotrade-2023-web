@@ -17,11 +17,11 @@ const day1: ScheduleItem[] = [
     description: "",
   },
   {
-    hostName: "Gost iznenađenja",
-    hostDescription: "Veliki stručnjak :)",
-    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Gost Iznenadenja.png"),
-    name: "Predavanje iznenađenja",
-    timeAndLocation: "28.3.2023. u 18.00h, Siva vijećnica na FER-u",
+    hostName: "Tomislav Burić",
+    hostDescription: "Zavod za primijenjenu matematiku, FER",
+    hostImgSrc: require("../../resources/schedule-hosts/mid-res/Tomislav Buric - FER.png"),
+    name: "Grafovi u akciji: Kako matematičke strukture pomažu na financijskom tržištu",
+    timeAndLocation: "28.3.2023. u 17.45h, Siva vijećnica na FER-u",
     description: "",
   },
 ];
